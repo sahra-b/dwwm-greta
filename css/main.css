@@ -1,0 +1,250 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"');
+
+*{
+    margin: 0;   
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Indie Flower';
+    background-image: url(../pics/body1.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+#banner {
+    /* background-image: url(../pics/soleil\ top1.jpeg);
+    background-size: cover; */
+    color: wheat;
+    font-style: italic;
+    background-color : lightseagreen;
+    text-align: center;
+    width: 100%;
+    height: 150px ;
+}
+#title {
+    height: 5rem; 
+    line-height: 5rem;
+}
+#punchline {
+    height: 2rem;   
+    line-height: 2rem;
+}
+#menu>ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: rgba(red 0, green 0, blue 0, 0.2);
+}
+#menu li {
+    display: inline-block;
+}
+#menu a {
+    display: inline-block;
+    border: lightgoldenrodyellow solid 0.15rem;
+    margin: 0.5rem 0.25rem;
+    padding: 0.25rem;
+    background-color: linen;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+#menu a:hover {
+    background-color: yellowgreen;
+    color: lightgreen;
+    border: solid .25rem yellowgreen;
+}
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#team>figure {
+    margin : .5rem
+}
+
+#team figcaption {
+    text-align: center;
+}
+.rounded {
+    border-radius: 50%;
+    border : solid wheat .5rem;
+
+}
+#team>h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: .5rem;
+    color: black;
+    font-style: italic;
+
+}
+img {
+    transition: all 2s;
+}
+#team img:hover {
+    /* transform: skew(40deg 12deg); */
+    transform: scale(1.4) rotate(-360deg);
+
+}
+#projet h1 {
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+#articles>article {
+    width: 30%;
+    /* border: solid black;
+    border-radius: 40%; */
+    background-color: grey;
+    margin: .7rem;
+    text-align: center;  
+    height: 100%;
+    bottom: -10%;
+}
+
+#articles h2, h3,h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black
+}
+
+.lien {
+    border:black outset .25rem;
+    color: yellow;
+    position: absolute;
+    padding: .25rem;    
+    right: 0;
+    position: relative;
+    padding: -10%;
+}
+
+#warning {
+    background-color: red; 
+    padding: .5rem;
+    color : blanchedalmond
+}
+.btn {
+    display: inline-block;
+    background-color :lightslategray;
+    border: grey outset .25rem;
+    padding: .25rem;
+    margin: .25rem;
+}
+
+#multimedia h1 {
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+#testimony h1 {
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+#test {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testart {
+    width: 100%;
+}
+
+#test>article {
+    width: 30%;
+    background-color: grey;
+    margin: .7rem;
+    text-align: center;  
+    height: 100%;
+    bottom: -10%;
+}
+
+#foot {
+    background-color: darkkhaki;
+    color: black;
+}
+/* #foot .bas {
+    width: 100%;
+
+} */
+#foot>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#foot>ul>li {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    list-style: none;
+}
+
+#foot>ul>li:nth-child(2) {
+    border-left: cornsilk dotted .1rem;
+    border-right: cornsilk dotted .1rem;
+}
+#foot>ul>li:first-child, #foot>ul>li:last-child {
+    border-left: cornsilk dotted .1rem;
+    border-right: cornsilk dotted .1rem;
+}
+
+#register>form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#regidter label {
+    width: 33%;
+    font-weight: bold;
+    text-align: right;
+}
+
+#register input {
+    width: 67%;
+}
+
+@keyframes clignote {
+    from {
+        background-color: red;
+        color: burlywood;
+    }
+    25% {
+        background-color: coral;
+        color: burlywood;
+    }
+    50% {
+        background-color: yellow;
+        color: black;
+    }
+    75% {
+        background-color: coral;
+        color: burlywood;
+    }
+    to {
+        background-color: red;
+        color: burlywood;
+    }
+}
+
+#warning {
+    animation: clignote 3s linear infinite;
+}

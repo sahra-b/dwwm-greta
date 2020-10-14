@@ -1,0 +1,125 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-image: url('../pics/bg.jpg');
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+    background-attachment: fixed;*/
+    background: fixed bottom url('../pics/chateau\ top.jpg') no-repeat, fixed right top url('../pics/soleil\ top1.jpeg') no-repeat;
+}
+
+h1, h2, h3, h4 { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+#top {
+    text-shadow: 2px -3px 5px lightslategray, -2px -3px 5px lightseagreen;
+}
+
+h1 {
+    font-variant: small-caps;
+    letter-spacing: .25rem;
+}
+
+h2 {
+    text-shadow: 0 0 10px lightgreen;
+}
+figure {
+    text-align: center;
+}
+main {
+    text-align: justify;
+}
+blockquote {
+    text-align: center;
+}
+
+blockquote::before {
+    content: '\201C';
+}
+blockquote::after {
+    content : '\201D';
+}
+
+h1+p::first-letter, h2+p::first-letter {
+    font-weight: bolder ;
+    font-size: 1.5em;
+}
+
+h1+p::first-line, h2+p::first-line {
+    font-style: italic;
+}   
+
+img:hover{
+    visibility:hidden;
+}
+
+p:hover {
+    background-color: #f4ccf4;
+
+}
+
+ul>li {
+    list-style-image: url('../pics/puce2.jpeg');
+}
+
+pre {
+    /*border: 32px olivedrab ridge;
+    border-width: 16px 16px; */
+    border: lightgoldenrodyellow .4em;
+    border-radius: 3em 9em;
+    background-image:url('../pics/backgrd.jpg');
+    /*background-image: linear-gradient(orange, green, brown);*/
+    background-image: radial-gradient(green,lightgoldenrodyellow);
+    padding: 1em;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+table {
+    border: grey solid;
+    width: 75%;
+}
+
+td, th {
+    border: grey solid;
+}
+
+
+thead {
+    background-color: darkslategray;
+    color: honeydew;
+}
+
+tfoot {
+    background-color: lightseagreen;
+    color: firebrick;
+}
+
+table>caption {
+    font-weight: bold;
+    color: firebrick;
+    margin-bottom: 0.5em;
+}
+
+tbody td:last-child {
+    text-align: right;
+}
+
+tbody>tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+tbody>tr {
+    transition: all 1s ease-in;
+}
+
+tbody>tr:hover {
+    background-color: yellow;
+    cursor: pointer;
+} 
+
+/* tbody td:hover {
+    background-color: yellowgreen;
+} */

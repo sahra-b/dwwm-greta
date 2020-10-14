@@ -1,0 +1,63 @@
+form {
+    width: 60%;
+    margin: .2rem auto;
+    background-color: lightyellow;
+    text-align: left;
+}
+
+form div {
+    margin: .5rem 0 0;
+}
+
+form div>label {
+    display: inline-block;
+    font-weight: bold;
+    text-align: right;
+    width: 35%;
+}
+
+form div>input+label {
+   text-align: left;
+}
+
+form div>input {
+    width: 60%;
+}
+
+form div>label+input, select, textarea {
+    width: 60%;
+
+}
+fieldset>fieldset {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: yellow;
+}
+
+
+/* #wrapper form {
+    width: 60%;
+    background-color: ivory;
+    display: inline-block;
+    text-align: left;
+}
+#wrapper label {
+    font-weight: bolder;
+    text-align: right;
+    width: 30%;
+}
+
+#wrapper input {
+    width: 70%;
+    background-color: khaki;
+}
+
+#wrapper input#radio, input#checkbox{
+    background-color: white;
+
+}
+
+              */
