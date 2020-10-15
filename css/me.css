@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@media screen and (max-width: 600px) {
-    section 
+@media screen and (max-width: 1024px) {
+    #article 
     {
-        width: 70%; }
+        width: 90%; }
+    #article img {
+        width: 70%;
+    }
+    h2 {
+        font-size: .9em;
+    }
+    iframe {
+        width: 90%;
+    }
 }
 
 * {
@@ -11,7 +20,8 @@
 }
 #deb {
    text-align: center;
-   background-color: lightgrey;
+   font-weight: bolder;
+   background-color: whitesmoke;
 }
 
 body {
@@ -19,12 +29,11 @@ body {
     background-color: whitesmoke;
 }
 
-body img {
+img {
     border-radius: 40%;
 }
 main {
     text-align: left;
-    font-weight: bolder;
 }
 #article {
     display: flex;
@@ -48,11 +57,11 @@ footer {
     background-color: grey;
 }
 footer img {
-    text-align: right;
-    margin-left: 80%;
     border-radius: 0%;
-
 }
+
 iframe {
-    border: 1px solid black;
+    border: solid black;
+    width: auto;
+
 }
