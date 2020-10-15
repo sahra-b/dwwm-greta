@@ -52,6 +52,10 @@ section {
 #comp #par #exp {
     border: solid;
 }
+#article li {
+    list-style: none;
+    list-style-type: none;
+}
 footer {
     text-align: left;
     background-color: grey;
